@@ -1,0 +1,21 @@
+<div class="main-div">
+    <mat-card class="example-card">
+        <div id="header-card">
+            <img class="display" src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                alt="Photo of a Shiba Inu">
+        </div>
+        <mat-card-content>
+            <mat-card-title>{{datosPersonales.nombre}}</mat-card-title>
+            <mat-card-subtitle>{{datosPersonales.profesion}}</mat-card-subtitle>
+            <p>
+                <mat-icon class="vertical-align" aria-hidden="false" aria-label="Example mail icon">mail</mat-icon>
+                <span>{{datosPersonales.mail}}</span>
+            </p>
+            <p>
+                <mat-icon class="vertical-align" aria-hidden="false" aria-label="Example phone icon">phone</mat-icon>
+                <span>{{datosPersonales.telefono}}</span>
+            </p>
+            <p>{{datosPersonales.descripcion}}</p>
+        </mat-card-content>
+    </mat-card>
+</div>

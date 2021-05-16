@@ -1,0 +1,35 @@
+.example-card {
+    max-width: 300px;
+    text-align: left;
+  }
+  mat-card-title{
+      font-size: 15px;
+  }
+
+  img {
+    margin:auto;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+  }
+
+  .negrita{
+    font-weight: bold;
+  }
+
+  .separatorLine{
+    line-height: 0;
+  }
+  .display{
+      display: inline-block;
+  }
+
+  .main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vertical-align{
+      vertical-align: middle;
+  }
+ 
